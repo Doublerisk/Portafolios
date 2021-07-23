@@ -20,9 +20,9 @@ class App extends Component {
             <BrowserRouter>
                 <Switch>
                     <Switch>
-                        <Route path="/index" render={props => <Index {...props} />} />
-                        <Redirect to="/index" />
-                        <Redirect from="/" to="/index" />
+                        <Route path="/" render={props => <Index {...props} />} />
+                        <Redirect to="/" />
+                        <Redirect from="/index" to="/" />
                     </Switch>
                 </Switch>
             </BrowserRouter>

@@ -54,7 +54,7 @@ function IndexHeader() {
                 }
               ></img>
             </a>
-            Codificado por Laharis Lobo
+            Codificado por Laharys Lobo
           </h6>
         </Container>
       </div>
