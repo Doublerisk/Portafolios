@@ -80,7 +80,7 @@ function Tabs() {
                         <ul align="left">
                           <li type="circle">HTML + CSS + JS + Bootstrap</li>
                           <li type="circle">
-                            React y React Native (Aplicaciones iOS & Android)
+                            ReactJS y React Native (Aplicaciones iOS & Android)
                           </li>
                           <li type="circle">
                             Laravel y PHP + Base de datos SQL
@@ -93,7 +93,8 @@ function Tabs() {
                             (Microsoft Technology Associated)
                           </li>
                           <li type="circle">
-                            Desarrollo basico en JAVA JSP (Web)
+                            Desarrollo basico en JAVA JSP, Swing y Spring
+                            Framework
                           </li>
                           <li type="circle">Desarrollo en C++</li>
                           <li type="circle">Experiencia en Wordpress</li>
@@ -120,11 +121,11 @@ function Tabs() {
                           </li>
                           <li type="circle">
                             <h4>Edad:</h4>
-                            24 años
+                            {new Date().getFullYear() - 1996}
                           </li>
                           <li type="circle">
-                            <h4>Nacionalidad:</h4>
-                            Hondureño
+                            <h4>Pais:</h4>
+                            Honduras
                           </li>
                         </ul>
                       </p>
