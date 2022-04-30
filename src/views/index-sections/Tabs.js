@@ -25,7 +25,7 @@ function Tabs() {
         <Container>
           <Row>
             <Col className="ml-auto mr-auto" md="10" xl="11">
-              <h2 className="category">Caracteristicas</h2>
+              <h2 className="category text-dark">Caracteristicas</h2>
               <Card>
                 <CardHeader>
                   <Nav className="justify-content-center" role="tablist" tabs>
@@ -71,12 +71,9 @@ function Tabs() {
                   </Nav>
                 </CardHeader>
                 <CardBody>
-                  <TabContent
-                    className="text-center"
-                    activeTab={"iconPills" + iconPills}
-                  >
+                  <TabContent activeTab={"iconPills" + iconPills}>
                     <TabPane tabId="iconPills1">
-                      <p>
+                      <p className="font-weight-bold text-dark">
                         <ul align="left">
                           <li type="circle">HTML + CSS + JS + Bootstrap</li>
                           <li type="circle">
@@ -102,7 +99,7 @@ function Tabs() {
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills2">
-                      <p>
+                      <p className="font-weight-bold text-dark">
                         <ul align="left">
                           <li type="circle">
                             <h5>Desarrollador de Software [2019 - 2021]</h5>
@@ -113,7 +110,7 @@ function Tabs() {
                       </p>
                     </TabPane>
                     <TabPane tabId="iconPills3">
-                      <p>
+                      <p className="font-weight-bold text-dark">
                         <ul align="left">
                           <li type="circle">
                             <h4>Nombre Completo:</h4>

@@ -35,7 +35,7 @@ function Index() {
           <Images />
           <Container>
             <h3 className="title">Acerca de mi</h3>
-            <h5 className="description">
+            <h5 className="description text-dark font-weight-normal">
               Estudiante de Ing. en Sistemas en la Universidad Autonoma de
               Honduras y desarrollador de los proyectos de software del futuro
               con las mejores practicas y usando tecnologias de desarrollo
